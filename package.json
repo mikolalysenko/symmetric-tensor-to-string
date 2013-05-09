@@ -1,0 +1,39 @@
+{
+  "name": "symmetric-tensor-to-string",
+  "version": "0.0.0",
+  "description": "Converts symmetric tensors into human readable/LaTeX parseable strings",
+  "main": "print.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dup": "~0.0.0",
+    "multinomial": "~0.0.0",
+    "symmetric-tensor-index": "~0.1.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.2"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/symmetric-tensor-to-string.git"
+  },
+  "keywords": [
+    "tensor",
+    "symmetric",
+    "multinomial",
+    "string",
+    "parse",
+    "pretty",
+    "print",
+    "latex",
+    "polynomial"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "daaec7818e18a21f6c676da39f341e86af5b3d5e"
+}
